@@ -1,4 +1,4 @@
-fetch("https://v2.jokeapi.dev/joke/Programming")
+fetch("https://v2.jokeapi.dev/joke/any")
   .then((data) => data.json())
   .then((jokesData) => {
     const setup = jokesData.setup;
